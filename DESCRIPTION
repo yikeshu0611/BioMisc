@@ -1,0 +1,20 @@
+Package: BioMisc
+Title: Useful Bioinformatics Tools
+Version: 0.9
+Authors@R: 
+    person(given = "Jing",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "zj391120@163.com")
+Description: Useful Bioinformatics Tools.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    do,
+    dplyr,
+    rvest,
+    set,
+    xml2

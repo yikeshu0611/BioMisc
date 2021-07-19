@@ -4,7 +4,12 @@
 \alias{download_geo_series_matrix}
 \title{Download geo series matrix}
 \usage{
-download_geo_series_matrix(..., chrome = FALSE, sleep = 5)
+download_geo_series_matrix(
+  ...,
+  chrome = FALSE,
+  sleep = 5,
+  browser = getOption("browser")
+)
 }
 \arguments{
 \item{...}{one or more gse}
@@ -12,6 +17,8 @@ download_geo_series_matrix(..., chrome = FALSE, sleep = 5)
 \item{chrome}{logical, whether to download by chrome}
 
 \item{sleep}{wait second, default is 5}
+
+\item{browser}{browser}
 }
 \value{
 series matrix url
